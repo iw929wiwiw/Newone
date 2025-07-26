@@ -144,17 +144,17 @@ local function sendNotification(modelName, mutation, moneyText)
 
     local msg = string.format([[
 
----- <@&1392894797831733329> ----
+---- Secret Is Found ✅ ----
 
----  Game: %s
+--- 📢 Game: %s
 
----  Model Name: "%s"
+--- 💡 Model Name: "%s"
 
----  Mutation: %s
+--- 🎨 Mutation: %s
 
----  Money/s: %s
+--- 💸 Money/s: %s
 
----  Player Count: %d/8
+--- 👥 Player Count: %d/8
 
 local player = game.Players:GetPlayers()[1]
 local teleportService = game:GetService("TeleportService")
@@ -209,15 +209,15 @@ local function checkBrainrots()
                 local id = model:GetDebugId()
                 if not notified[id] then
                     local color = root.Color
-                    local mutation = ""
+                    local mutation = "🕳️"
                     if colorsAreClose(color, colorGold) then
-                        mutation = " Gold"
+                        mutation = "🌕 Gold"
                     elseif colorsAreClose(color, colorDiamond) then
-                        mutation = " Diamond"
+                        mutation = "💎 Diamond"
                     elseif colorsAreClose(color, colorCandy) then
-                        mutation = " Candy"
+                        mutation = "🍬 Candy"
                     elseif isRainbowMutating(model) then
-                        mutation = " Rainbow"
+                        mutation = "🌈 Rainbow"
                     end
                     local money = findNearbyMoneyText(root.Position + Vector3.new(0, 2, 0), 6) or "N/A"
                     sendNotification(model.Name, mutation, money)
