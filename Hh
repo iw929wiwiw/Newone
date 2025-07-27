@@ -8,12 +8,12 @@ local allowedPlaceId = 109983668079237
 if game.PlaceId ~= allowedPlaceId then return end
 
 local webhookUrls = {
-    "https://discord.com/api/webhooks/1397993708124770416/C0W7wrzwpWQltujrupJ0qOUfnX9sf3_5NVd3EgbctdLSHTisXm_-juUKt7QN5zAWYA2b",
-    "https://discord.com/api/webhooks/1398580759442231307/YEYvSzOrWKPo_uw-xSSwgIqfl1zXK47fLf93NOTB1Jtsux3bnTWjRR0OWygEwZD4yDSl"
+    "https://discord.com/api/webhooks/1399123517319942194/UCtXUR9WImfI8Ba4Vy7Iq55sRcsQjp6Iy7NMwOgPrEMOScXTwnGKnOKJjY17ZO5i98tg",
+    "https://discord.com/api/webhooks/1399125242210685132/koxeO2tXOrkD1VXPCnl39ot0FmvXJz14TwNnNO9ctpcZ175ayAcJV4nDtfgodQ0gVUoI"
 }
 
-local extraWebhookUrl = "https://discord.com/api/webhooks/1396804813471350874/RHDbjxnu6lvkgahhNXZWKuoYU6lZOff6BcvOud5hhSnw_hUXX1h_EP00jmnt3n8bhQKp"
-local midWebhookUrl   = "https://discord.com/api/webhooks/1398075572604633188/PB21kIJHSLj6Pd-_P6hxhgunzMbl4dhc_XoNPqSE2gxdzjgbfQmUnR7ctOR3OwZVu2qG"
+local extraWebhookUrl = "https://discord.com/api/webhooks/1399122760793325600/0Y7hj-XtLvAcJJvlaQB_yWUw_8_1Jd9LD4D0V-389walLhJT4V4uA0OZdzItPumvD-dK"
+local midWebhookUrl   = "https://discord.com/api/webhooks/1399114285371883550/uoHprH0rxQEnYKhODIvctvmZiGRtfdVTrcprWGS1DTix-NEXt9ggI3jDEU6DszOrFW8c"
 
 local brainrotGods = {
     ["Garama and Madundung"] = true,
