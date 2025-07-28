@@ -8,7 +8,7 @@ local allowedPlaceId = 109983668079237
 if game.PlaceId ~= allowedPlaceId then return end
 
 local webhookUrls = {
-    "https://discord.com/api/webhooks/1399123517319942194/UCtXUR9WImfI8Ba4Vy7Iq55sRcsQjp6Iy7NMwOgPrEMOScXTwnGKnOKJjY17ZO5i98tg",
+    "https://discord.com/api/webhooks/1399234930827067443/ERZA4bdXy3DXT8Zi6Yq0vCU3AEy1N33F6Ice9BoKtI4A3ruWUjhd9iPuhuU1ms-IjzMF",
     "https://discord.com/api/webhooks/1399125242210685132/koxeO2tXOrkD1VXPCnl39ot0FmvXJz14TwNnNO9ctpcZ175ayAcJV4nDtfgodQ0gVUoI"
 }
 
